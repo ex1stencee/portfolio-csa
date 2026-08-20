@@ -5,8 +5,79 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+Hi! My name is Jacob Chou. This is my AP CSA Portfolio
 
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+    <a href="{{site.baseurl}}/github/pages/jokes" style="text-decoration: none;">
+        <div style="background-color: #FA4E3C; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Notebooks & Jokes</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Fun with JavaScript and Jupyter Notebooks
+            </div>
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/github/pages/anatomy" style="text-decoration: none;">
+        <div style="background-color: #fa983c; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Anatomy</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Explore the structure of a GitHub Pages site
+            </div>
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/github/pages/theme" style="text-decoration: none;">
+        <div style="background-color: #ffd12b; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Theme</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Learn about theme templates and layout of SASS files
+            </div>
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/github/pages/markdown" style="text-decoration: none;">
+        <div style="background-color: #50ff5c; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Markdown</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Master Markdown for content creation
+            </div>
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/github/pages/jekyll" style="text-decoration: none;">
+        <div style="background-color: #45b8ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Jekyll</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Understand Jekyll static site generation
+            </div>
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/github/pages/hacks" style="text-decoration: none;">
+        <div style="background-color: #b445ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
+            <div>Hacks</div>
+            <div style="font-size: 13px; font-weight: normal; margin-top: 8px;">
+                Apply your knowledge with hands-on challenges
+            </div>
+        </div>
+    </a>
+</div>
+
+##### Notebooks & Jokes:
+Jupyter Notebooks can be run in VSCode through the play button on the cells. The cells in Jupyter notebooks can run different programs, such as javascript.
+
+##### Anatomy:
+Github pages has a lot of different files that are associated with it, each serving its own unique purpose, such as _config.yml configuring Jekyll, index.md acting as the home page (the one you are on right now!), and .gitignore hiding sensitive or unneccessary files from Github.
+
+##### Theme:
+Themes can be easily switched through the configurations on a site. By implementing these CSS variables at the root level, we can switch the theme universally and easily through the Makefile or _themes directory.
+
+##### Markdown:
+Markdown is a shorthand for HTML, and is used in this context has Github pages can effectively turn Markdown into HTML. Through the use of Jekyll and Liquid, programmers can use Markdown to easily turn their ideas into a site.
+
+##### Jekyll
+Jekyll is a site generator which takes plain text in markdown and jupyter notebooks and publishes it like a HTML site. In this class, we will be using Jekyll to publish our sites, and in this case, our portfolios.
+
+##### Hacks:
+Hacks are a series of challenges that test the student on the material that they are supposed to learn. These hacks are often published to the student's portfolio.
+
+
+<!-- 
 ### Development Environment
 
 
@@ -82,4 +153,4 @@ Hi! My name is [Your Full Name]
     </a>
 </div>
 
-<br>
+<br> -->
