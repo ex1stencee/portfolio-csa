@@ -19,7 +19,7 @@ Flags are made using Wikipedia images
     */
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamic columns */
         gap: 10px;
     }
     .grid-item {
@@ -60,10 +60,9 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "0/01/Flag_of_California.svg", "comment": "Current Place", "description": "California - 16 years"},
+        {"flag": "/thumb/f/f2/Flag_of_Massachusetts.svg/1920px-Flag_of_Massachusetts.svg.png", "comment": "Spawn Point", "description": "Massachusetts - 3 months"},
+        {"flag": "thumb/0/03/Flag_of_Washington%2C_D.C.svg/1920px-Flag_of_Washington%2C_D.C.svg.png", "comment": "Favorite Vacation", "description": "Washington D.C."},
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -85,7 +84,7 @@ Flags are made using Wikipedia images
 
         // Add "p" HTML tag for the greeting
         var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;  // extract the greeting
+        greeting.textContent = location.comment;  // extract the comment
 
         // Append img and p HTML tags to the grid item DIV
         gridItem.appendChild(img);

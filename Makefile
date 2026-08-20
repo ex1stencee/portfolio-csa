@@ -1,7 +1,8 @@
 OST ?= localhost
-PORT ?= 4500
+PORT ?= 4600
 LOG_FILE = /tmp/jekyll$(PORT).log
 PYTHON := venv/bin/python3
+REPO_NAME ?= portfolio-csa
 
 SHELL = /bin/bash -c
 .SHELLFLAGS = -e
