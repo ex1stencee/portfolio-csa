@@ -7,6 +7,13 @@ show_reading_time: false
 
 Hi! My name is Jacob Chou. This is my AP CSA Portfolio
 
+### MCQ Lessons:
+<nav class="unit-navbar" style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;padding:12px 0;margin-bottom:24px;border-radius:8px;">
+  <a class="unit-navbar-link" href="{{ site.baseurl }}/mcqs/1/1" style="padding:8px 16px;border-radius:6px;border:1px solid;text-decoration:none;font-weight:500;transition:background 0.2s;">1.1</a>
+</nav>
+
+### Important Information
+
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
     <a href="{{site.baseurl}}/github/pages/jokes" style="text-decoration: none;">
         <div style="background-color: #FA4E3C; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s; text-align: center;">
@@ -75,7 +82,6 @@ Jekyll is a site generator which takes plain text in markdown and jupyter notebo
 
 ##### Hacks:
 Hacks are a series of challenges that test the student on the material that they are supposed to learn. These hacks are often published to the student's portfolio.
-
 
 <!-- 
 ### Development Environment
