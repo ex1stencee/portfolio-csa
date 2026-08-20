@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: About Me
 permalink: /about/
 comments: true
 ---
@@ -120,28 +120,16 @@ comments: true
   }
 </style>
 
-### Culture, Family, and Fun
+### My Life
 
-Everything for me, as for many others, revolves around family and faith.
+I spent a lot of my free time playing video games.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+I often spend lots of time playing "interesting games" with my friends.
 
-<comment>
-Gallery of Pics, scroll to the right for more ...
-</comment>
-<div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/john_tamara.jpg" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/tamara_fam.jpg" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/surf.jpg" alt="Image 4">
-  <img src="{{site.baseurl}}/images/about/john_lora.jpg" alt="Image 5">
-  <img src="{{site.baseurl}}/images/about/lora_fam.jpg" alt="Image 6">
-  <img src="{{site.baseurl}}/images/about/lora_fam2.jpg" alt="Image 7">
-  <img src="{{site.baseurl}}/images/about/pj_party.jpg" alt="Image 8">
-  <img src="{{site.baseurl}}/images/about/trent_family.png" alt="Image 9">
-  <img src="{{site.baseurl}}/images/about/claire.jpg" alt="Image 10">
-  <img src="{{site.baseurl}}/images/about/grandkids.jpg" alt="Image 11">
-  <img src="{{site.baseurl}}/images/about/farm.jpg" alt="Image 12">
-</div>
+<img src="{{site.baseurl}}/images/about/appytree.png" alt="Appy Tree">
+
+I am ethnically half Chinese and half Taiwanese.
+
+I often celebrate many cultural traditions such as Chinese New Year and the Mid-Autumn Festival the with my aunts, uncles, and grandparents.
+
+<img src="{{site.baseurl}}/images/about/cny.jpg" alt="Chinese New Year">
