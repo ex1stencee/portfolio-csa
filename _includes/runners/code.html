@@ -4,8 +4,6 @@
   data-runner-id="{{ include.runner_id }}"
   data-default-code="{{ include.code | jsonify | escape }}"
   data-storage-key="{{ page.permalink | replace: '/', '_' }}_{{ include.runner_id }}">
-  {% capture code_runner_title %}Code Runner Challenge {% if include.challenge_number %}#{{ include.challenge_number }}{% endif %}{% endcapture %}
-  {% include runners/fragments/challenge-box.html title=code_runner_title challenge=include.challenge %}
 
   {% if include.source %}
   <details>
